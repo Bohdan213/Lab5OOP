@@ -57,6 +57,7 @@
         <!-- Block checks                                                                -->
         <!-- http://checkstyle.sourceforge.net/config_blocks.html                        -->
         <!-- =========================================================================== -->
+
         <module name="EmptyBlock">
             <property name="option" value="text"/>
         </module>
@@ -68,10 +69,13 @@
         <!-- http://checkstyle.sourceforge.net/config_design.html                        -->
         <!-- =========================================================================== -->
         <!-- SPECIAL HACK FOR NON-STATIC PUBIC FINAL VARIABLE -->
+
         <module name="VisibilityModifier">
             <property name="publicMemberPattern" value="^SLOPE_ORDER$"/>
         </module>
+
         <!-- <module name="FinalClass"/> -->
+
         <module name="InterfaceIsType"/>
         <module name="MutableException"/>
 
@@ -148,8 +152,6 @@
         <!-- =========================================================================== -->
 
         <module name="Header">
-            <property name="headerFile" value="flower.store"/>
-            <property name="fileExtensions" value="java"/>
         </module>
 
         <!-- =========================================================================== -->
