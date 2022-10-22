@@ -138,12 +138,19 @@
         <!-- http://checkstyle.sourceforge.net/config_duplicates.html                    -->
         <!-- =========================================================================== -->
 
+        <module name="MultipleStringLiterals">
+            <property name="allowedDuplicates" value="2"/>
+        </module>
 
         <!-- =========================================================================== -->
         <!-- Headers                                                                     -->
         <!-- http://checkstyle.sourceforge.net/config_header.html                        -->
         <!-- =========================================================================== -->
 
+        <module name="Header">
+            <property name="headerFile" value="flower.store"/>
+            <property name="fileExtensions" value="java, g4"/>
+        </module>
 
         <!-- =========================================================================== -->
         <!-- Imports                                                                     -->
@@ -166,12 +173,18 @@
         <!-- http://checkstyle.sourceforge.net/config_javadoc.html                       -->
         <!-- =========================================================================== -->
 
+        <module name="AtclauseOrder"/>
+        <module name="InvalidJavadocPosition"/>
+        <module name="JavadocBlockTagLocation"/>
 
         <!-- =========================================================================== -->
         <!-- Metrics                                                                     -->
         <!-- http://checkstyle.sourceforge.net/config_metrics.html                       -->
         <!-- =========================================================================== -->
 
+        <module name="BooleanExpressionComplexity">
+            <property name="max" value="4"/>
+        </module>
 
         <!-- =========================================================================== -->
         <!-- Miscellaneous checks                                                        -->
@@ -195,6 +208,8 @@
         <!-- Naming conventions                                                          -->
         <!-- http://checkstyle.sourceforge.net/config_naming.html                        -->
         <!-- =========================================================================== -->
+
+        <module name="AbbreviationAsWordInName"/>
 
         <!-- MODIFIED TO ALLOW SINGLE LETTER UPPERCASE NAMES     -->
         <!-- MODIFIED TO ALLOW FINAL VARIABLES TO BE ALL UPPER-CASE -->
