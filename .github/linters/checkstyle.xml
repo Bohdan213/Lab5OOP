@@ -143,16 +143,6 @@
         </module>
 
         <!-- =========================================================================== -->
-        <!-- Headers                                                                     -->
-        <!-- http://checkstyle.sourceforge.net/config_header.html                        -->
-        <!-- =========================================================================== -->
-
-        <module name="Header">
-            <property name="headerFile" value="flower.store"/>
-            <property name="fileExtensions" value="java, g4"/>
-        </module>
-
-        <!-- =========================================================================== -->
         <!-- Imports                                                                     -->
         <!-- http://checkstyle.sourceforge.net/config_imports.html                       -->
         <!-- =========================================================================== -->
