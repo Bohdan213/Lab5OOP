@@ -3,7 +3,6 @@ package flower.store;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.ArrayList;
 
 
 @Setter
@@ -19,7 +18,6 @@ public class Flower {
     @Getter
     @Setter
     private FlowerType flowerType;
-
     @Override
     public int hashCode() {
         return super.hashCode();
