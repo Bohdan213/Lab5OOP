@@ -151,9 +151,6 @@
         <!-- http://checkstyle.sourceforge.net/config_header.html                        -->
         <!-- =========================================================================== -->
 
-        <module name="Header">
-        </module>
-
         <!-- =========================================================================== -->
         <!-- Imports                                                                     -->
         <!-- http://checkstyle.sourceforge.net/config_imports.html                       -->
