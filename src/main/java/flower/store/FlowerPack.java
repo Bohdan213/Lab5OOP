@@ -1,10 +1,7 @@
 package flower.store;
-import lombok.Getter;
-import lombok.Setter;
-
 public class FlowerPack {
-    private Flower flower;
-    private int quantity;
+    private final Flower flower;
+    private final int quantity;
 
     public FlowerPack(Flower flower, int quantity) {
         this.flower = flower;
